@@ -1,0 +1,20 @@
+# Dependências
+node_modules/
+
+# Secrets e configs locais — NUNCA comite estes
+.env
+*.tfvars
+!example.tfvars
+*.pem
+*.key
+kubeconfig
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sistema
+.DS_Store
+*.log

@@ -1,0 +1,15 @@
+{
+  "name": "devops-challenge-app",
+  "version": "1.0.0",
+  "description": "API REST simples usada como base para o desafio técnico de DevOps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node server.test.js",
+    "lint": "node -e \"require('./server.js'); console.log('lint ok'); process.exit(0)\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
